@@ -23,8 +23,13 @@ const Home: NextPage = () => {
       </div>
 
       <main className='max-w-5xl mx-auto'>
-        <div className='mt-8'>
+
+        {/* <div className='mt-8'>
           <IpfsImage hash='bafybeib3ylafmlp2mlxr2rlqapagvi3fjs5i4xjns7633piy6b6dcykvp4' />
+        </div> */}
+
+        <div className='mt-8'>
+          <img src='https://ipfs.io/ipfs/bafybeib3ylafmlp2mlxr2rlqapagvi3fjs5i4xjns7633piy6b6dcykvp4' />
         </div>
 
         <div className='font-["Neuton"] flex justify-between'>
