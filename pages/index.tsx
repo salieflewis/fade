@@ -32,7 +32,7 @@ const Home: NextPage = () => {
           <img src='https://ipfs.io/ipfs/bafybeib3ylafmlp2mlxr2rlqapagvi3fjs5i4xjns7633piy6b6dcykvp4' />
         </div>
 
-        <div className='font-["Neuton"] flex justify-between'>
+        <div className='font-["Neuton"] flex justify-between pb-2'>
           <div>
             <p className='mt-4 font-bold'>
               Salief Lewis, <i>Magenta Hydrangeas</i>, 2022
