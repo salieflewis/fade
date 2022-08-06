@@ -27,14 +27,19 @@ export const Collect = () => {
 
   return (
     <div className='mt-4 text-right'>
-      <button
+      {/* <button
         onClick={() => write?.()}
-        className='hover:text-[#808080]'
+        // className='hover:text-[#808080]'
       >
         Collect an edition
-      </button>
+        
+      </button> */}
+      <h1>Minting complete</h1>
       <p className='mt-1 font-light text-[#808080] leading-5'>
-        0.025 ETH
+        NFTs may be available on the{' '}
+        <a className='underline' href='https://zora.co/collections/0x63d46079d920e5dd1f0a38190764aa1845dc4bc6'>
+          secondary market
+        </a>
       </p>
     </div>
   );
